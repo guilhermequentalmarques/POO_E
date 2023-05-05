@@ -43,7 +43,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v6.2
       with:
         image: guilhermequental/aula_maven_e
-        tags: 1.0, 1.1
+        tags: 1.0, latest
         registry: Docker.io
         dockerfile: Dockerfile.ci
         username: ${{ secrets.DOCKER_USERNAME}}
